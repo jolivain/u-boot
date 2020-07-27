@@ -125,8 +125,6 @@
 
 &usdhc2 {
 	u-boot,dm-spl;
-	sd-uhs-sdr104;
-	sd-uhs-ddr50;
 	non-removable;
 	assigned-clocks = <&clk IMX8MM_CLK_USDHC2>;
 	assigned-clock-rates = <400000000>;
